@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/huiswerk_les_15.css">
+</head>
+<body>
+      
+    <header>  
+        <h1>Henk Karelse - Melkveehouder</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijn CV</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+    </header>
+<main>
+    <h2>Contactformulier</h2>
+
+    <form action="https://formspree.io/f/mrbpeqee" method="post">
+
+        <label for="voornaam">Voornaam</label>
+        <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+
+        <label for="achternaam">Achternaam</label>
+        <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam">
+
+        <label for="email">Email adres</label>
+        <input type="email" id="email" name="email" placeholder="Email adres">
+
+        <label for="bericht">Bericht</label>
+        <textarea id="bericht" name="bericht" placeholder="Bericht"></textarea>
+        <button type="submit" onclick="this.innerText='Uw bericht is verzonden!'">Verzend</button>
+    </form>
+</main>
+
+
+    <div class="duwt-footer-omlaag"></div>
+
+    <footer>
+        <p>© Henk Karelse</p>
+    </footer>
+
+</body>
+</html>
